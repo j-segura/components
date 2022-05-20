@@ -16,12 +16,12 @@ html {
 
 .login {
     font-family: "Quicksand", sans-serif;
-    max-width: 494px;
-    min-width: 293px;
-    width: 90%;
+    width: 494px;
+    /* min-width: 293px;
+    width: 90%; */
     height: auto;
     margin: auto;
-    transform: translate(0, 40%);
+    transform: translate(0, 15%);
 
     background: #FFFFFF;
     border-radius: 8px;
@@ -29,20 +29,20 @@ html {
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    padding-top: 21px;
-    padding-bottom: 13px;
+    padding-top: 37px;
+    padding-bottom: 19px;
 }
 
 .logo {
+    width: 233.28px;
+    height: 91px;
+    margin-bottom: 38px;
     background-color: #FFFFFF;
-    width: 138.36px;
-    height: 53.97px;
-    margin-bottom: 22.5px;
 }
 
 input {
-    width: 100%;
-    height: 34.99px;
+    width: 432px;
+    height: 59px;
     border: 1px solid #DDDDDD;
     border-radius: 5px;
     padding-left: 9.5px;
@@ -50,15 +50,19 @@ input {
 
 input::placeholder {
     font-family: "Quicksand", sans-serif;
-    font-style: normal;
+    /* font-style: normal;
     font-weight: 40rem;
-    font-size: 12px;
+    font-size: 12px; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
     letter-spacing: 0.02em;
     color: #AEAEAE;
 }
 
 #password {
-    margin-top: 13.5px;
+    margin-top: 23px;
     width: 87.3%;
 }
 
@@ -69,8 +73,8 @@ input::placeholder {
 .eye {
     position: relative;
     display: block;
-    top: -22.5px;
-    left: 230px;
+    top: -38px;
+    right: -388px;
 }
 
 input[type="submit" i] {
@@ -90,20 +94,22 @@ input[type="submit" i] {
 }
 
 #btn_login {
-    width: 87.3%;
-    height: 34.99px;
+    /* width: 87.3%;
+    height: 34.99px; */
+    width: 432px;
+    height: 59px;
     background: #5E227F;
     border-radius: 5px;
     font-family: "Quicksand", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 1.5rem;
-    line-height: 18px;
-    letter-spacing: 0.6px;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.9px;
 }
 
 .links {
-    margin-top: 8px;
+    margin-top: 25px;
 }
 
 .links a,
@@ -111,8 +117,8 @@ input[type="submit" i] {
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
-    font-size: 0.9rem;
-    line-height: 11px;
+    font-size: 14px;
+    line-height: 17px;
     letter-spacing: 0.02em;
 
     color: #AEAEAE;
@@ -122,23 +128,3 @@ input:focus {
     border-color: #5E227F;
 }
 
-
-@media screen and (min-width: 540px) {
-    body {
-        background: rgb(49, 49, 49);
-    }
-
-    .logo {
-        width: 233.28px;
-        height: 91px;
-        margin-bottom: 38px;
-    }
-
-    input {
-        width: 432px;
-        height: 59px;
-        border: 1px solid #DDDDDD;
-        border-radius: 5px;
-        padding-left: 9.5px;
-    }
-}
