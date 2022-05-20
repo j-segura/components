@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Register</title>
     <!doctype html>
     <html lang="en">
 
@@ -22,9 +22,18 @@
 <body>
 
     <nav>
-        <form action="" class="login">
-            <img src="./img/logo.png" alt="" class="logo">
+        <form action="" class="registro">
+            <h1 class="title">Registrarte</h1>
             <div class="input_normal">
+                <input type="text" class="input" placeholder="Tu Nombre">
+            </div>
+            <div class="input_normal mt">
+                <input type="text" class="input" placeholder="Apellidos">
+            </div>
+            <div class="input_normal mt">
+                <input type="text" class="input" placeholder="Teléfono">
+            </div>
+            <div class="input_normal mt">
                 <input type="text" class="input" placeholder="Correo electrónico">
             </div>
             <div class="password mt">
@@ -35,12 +44,15 @@
                     </svg>
                     
             </div>
-            <input type="submit" class="btn_send mt" value="Iniciar sesión">
-            <div class="links">
-                <a href="">Registrarse</a>
-                <span> | </span>
-                <a href="">¿Olvidaste tu contraseña?</a>
+            <div class="password mt">
+                <input type="password" placeholder="Repite contraseña">
+                <svg class="eye" width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 9C1 9 5 1 12 1C19 1 23 9 23 9C23 9 19 17 12 17C5 17 1 9 1 9Z" stroke="#AEAEAE" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 12C13.6569 12 15 10.6569 15 9C15 7.34315 13.6569 6 12 6C10.3431 6 9 7.34315 9 9C9 10.6569 10.3431 12 12 12Z" stroke="#AEAEAE" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
             </div>
+            <input type="submit" class="btn_send mt-48" value="Registrarme" class="">
         </form>
     </nav>
 
