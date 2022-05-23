@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/card.css">
+    <link rel="stylesheet" href="./css/navBar.css">
+</head>
+
+<body>
+
+    <nav class="nav_bar">
+        <div class="logo_space">
+            <a href="#">
+                <img src="./img/logo.png" alt="evendi" class="logo_nav">
+            </a>
+        </div>
+        <div class="box">
+            <form class="d-flex buscador" role="search">
+                <input class="input_search" type="search" placeholder="Buscar...">
+                <button class="btn_serch" type="submit">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M8.11111 15.2222C12.0385 15.2222 15.2222 12.0385 15.2222 8.11111C15.2222 4.18375 12.0385 1 8.11111 1C4.18375 1 1 4.18375 1 8.11111C1 12.0385 4.18375 15.2222 8.11111 15.2222Z"
+                            stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M17 17L13.1333 13.1333" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </form>
+
+            <svg class="menu_icon_search" hidden width="26" height="26" viewBox="0 0 18 18" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M8.11111 15.2222C12.0385 15.2222 15.2222 12.0385 15.2222 8.11111C15.2222 4.18375 12.0385 1 8.11111 1C4.18375 1 1 4.18375 1 8.11111C1 12.0385 4.18375 15.2222 8.11111 15.2222Z"
+                    stroke="#F130D5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M17 17L13.1333 13.1333" stroke="#F130D5" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+
+            <input type="checkbox" name="" id="check">
+            <label for="check" class="check-btn">
+                <i class="menu_icon">
+                    <svg width="30" height="23" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 6.99976H17" stroke="#F130D5" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M1 1.6665H17" stroke="#F130D5" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M1 12.3333H17" stroke="#F130D5" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </i>
+            </label>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="#">Leads</a>
+                    </li>
+                    <li>
+                        <a href="#">Administración</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="user">
+                <a href="#" class="user_name">Gina Gómez</a>
+                <a href="#" title="Gina Gómez">
+                    <img src="./img/user_image.png" alt="..." class="perfil">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="crud">
+        <nav class="card">
+            <div class="item mr">
+                <h3>Fecha</h3>
+                <p>12/04/2022</p>
+            </div>
+            <div class="item mr">
+                <h3>Nombre</h3>
+                <p>Maria Laura</p>
+            </div>
+            <div class="item mr">
+                <h3>Apellido</h3>
+                <p>Saldarriaga</p>
+            </div>
+            <div class="item mr">
+                <h3>Email</h3>
+                <p>marialaurazb@gmail.com</p>
+            </div>
+            <div class="item mr">
+                <h3>Para</h3>
+                <p>Vender en línea</p>
+            </div>
+            <div class="item mr">
+                <h3>Valor cotizado</h3>
+                <p>$2.500.000</p>
+            </div>
+            <div class="item mr estado">
+                <h3>Estado</h3>
+                <div class="caja">
+                    <p class="contracto_evendi">Contrató Evendi</p>
+                </div>
+            </div>
+            <button type="submit" class="ver_estado_btn">
+                <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 6.90907C1 6.90907 3.72727 1.45453 8.5 1.45453C13.2727 1.45453 16 6.90907 16 6.90907C16 6.90907 13.2727 12.3636 8.5 12.3636C3.72727 12.3636 1 6.90907 1 6.90907Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M8.50004 8.95453C9.62972 8.95453 10.5455 8.03874 10.5455 6.90907C10.5455 5.7794 9.62972 4.86362 8.50004 4.86362C7.37037 4.86362 6.45459 5.7794 6.45459 6.90907C6.45459 8.03874 7.37037 8.95453 8.50004 8.95453Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                <p>Ver detalle</p>                    
+            </button>
+        </nav>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

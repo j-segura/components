@@ -138,20 +138,12 @@ body {
 }
 
 @media screen and (max-width: 992px) {
-    body {
-        background: rgb(96, 96, 96);
-    }
-
     .user_name {
         display: none !important;
     }
 }
 
 @media screen and (max-width: 810px) {
-    body {
-        background: rgb(162, 162, 162);
-    }
-
     .menu {
         display: none;
     }
