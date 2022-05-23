@@ -137,17 +137,17 @@
     transition: 0.2s;
 }
 
-#switch:checked+.lbl::after {
+input[type="checkbox"]:checked + .lbl::after {
     left: 17px;
     background: #FFFFFF;
 }
 
-#switch:checked+.lbl {
+input[type="checkbox"]:checked + .lbl {
     background: #F130D5;
     border: 0.5px solid #F130D5;
 }
 
-#switch {
+input[type="checkbox"] {
     display: none;
 }
 
